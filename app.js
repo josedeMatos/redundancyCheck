@@ -246,21 +246,21 @@ function writeReport(report) {
 	var healthReport = '';
 	console.log('writing report ');
 	for (host of report.hosts) {
-		flStream.write('host ' + host.url + '\n');
+		//flStream.write('host ' + host.url + '\n');
 		healthReport += host.url + ' ' + (host.health ? ' OK' : 'NOK') + '\n';
 		for (cat of host.categories) {
 			healthReport += '\t' + cat.category + ' ' + (cat.health ? 'OK' : 'NOK') + '\n';
-			flStream.write('\tcategory ' + '\n\t' + cat.category + '\n');
+			//flStream.write('\tcategory ' + '\n\t' + cat.category + '\n');
 			var keys = Object.keys(cat.bundles);
 			var extIDsLength = keys.length;
 			for (var extIDsIDX = 0; extIDsIDX < extIDsLength; extIDsIDX++) {
-				flStream.write('\t\t' + keys[extIDsIDX] + '\n\t\t\t' + cat.bundles[keys[extIDsIDX]].content + '\n');
+				//flStream.write('\t\t' + keys[extIDsIDX] + '\n\t\t\t' + cat.bundles[keys[extIDsIDX]].content + '\n');
 				healthReport += '\t\t' + keys[extIDsIDX] + ' ' + (cat.bundles[keys[extIDsIDX]].content ? 'OK' : 'NOK') + '\n';
 			}
 
 		}
 	}
-
+	flStream.write(JSON.stringify(report));
 	console.log(healthReport);
 }
 
