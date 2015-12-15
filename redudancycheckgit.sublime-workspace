@@ -1,0 +1,437 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"heal",
+				"healthReport"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"retu",
+				"returnee"
+			],
+			[
+				"ext",
+				"extIDsLength"
+			],
+			[
+				"getho",
+				"getHostandPath"
+			],
+			[
+				"hostI",
+				"hostIDX"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"host",
+				"hostIndex"
+			],
+			[
+				"ran",
+				"randomPicks"
+			],
+			[
+				"cat",
+				"catIdx"
+			],
+			[
+				"ho",
+				"hosts"
+			],
+			[
+				"get",
+				"getCatIdx"
+			],
+			[
+				"callback",
+				"callback"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"hons",
+				"hostname"
+			],
+			[
+				"ca",
+				"callCntr"
+			],
+			[
+				"categor",
+				"category"
+			],
+			[
+				"final",
+				"finalCheck"
+			],
+			[
+				"def",
+				"deferred"
+			],
+			[
+				"wri",
+				"writeReport"
+			],
+			[
+				"fl",
+				"flStream"
+			],
+			[
+				"chun",
+				"chunkParse"
+			],
+			[
+				"exp",
+				"express"
+			],
+			[
+				"crossCat",
+				"crosscategories"
+			],
+			[
+				"cross",
+				"crosscat"
+			],
+			[
+				"crosscat",
+				"crosscategories"
+			],
+			[
+				"bund",
+				"bundlesCheck"
+			],
+			[
+				"ex",
+				"extenralIDs"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 7224,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data.txt",
+			"settings":
+			{
+				"buffer_size": 514850,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "form",
+		"selected_items":
+		[
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"FORM",
+				"Format: Javascript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/josematos/WebstormProjects/redundancyCheck"
+	],
+	"file_history":
+	[
+		"/Users/josematos/WebstormProjects/redundacyCheck2/data.txt",
+		"/Users/josematos/WebstormProjects/redundacyCheck2/backup.js",
+		"/Users/josematos/WebstormProjects/redundacyCheck2/app.js",
+		"/Users/josematos/WebstormProjects/redundacyCheck2/jsonHosts.json",
+		"/Users/josematos/WebstormProjects/untitled1/package.json",
+		"/Users/josematos/WebstormProjects/untitled1/server.js",
+		"/Users/josematos/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/josematos/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tablets",
+			"bundle",
+			"getchun",
+			"consol",
+			"error",
+			"console",
+			"mediamarktnl144",
+			"console",
+			"consol",
+			"mat",
+			"req",
+			"laptops",
+			"head",
+			"headers",
+			"con",
+			"promis",
+			"async",
+			"asynccalls.pu",
+			"promiss",
+			"console",
+			"getCntr--",
+			"console",
+			"report.host",
+			"	\n",
+			"De Samsung Galaxy Tab A 9.7 beschikt over een 4:3 beeldverhouding, waardoor eBooks lezen nog comfortabeler wordt. Het scherm van 9,7-inch heeft een resolutie van 1024 bij 768 pixels. Binnenin zorgt een 1,2 GHz quad core-processor er voor dat het touchscreen snel reageert op elke aanraking. Standaard beschikt de Samsung Galaxy Tab A 9",
+			"Standaard beschikt de Samsung Galaxy Tab A 9",
+			"surfac",
+			"externalID",
+			"open",
+			"save"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6840,
+								6840
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3376.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "data.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 514850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24655,
+								24655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2831.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "redudancycheckgit.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

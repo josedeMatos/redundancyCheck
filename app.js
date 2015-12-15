@@ -224,24 +224,6 @@ function CheckProductBundes(report, finalstep) {
 
 }
 
-function Iterator(obj, params, callback) {
-	var hostIDX = 0,
-		hostsLength = report.hosts.length,
-		catIDX = 0,
-		catLength = 3,
-		callCounter = 0,
-		callLength = hostsLength * 3 * 10;
-
-	for (; hostIDX < hostsLength; hostIDX++) {
-		for (; catIDX < catLength; catIDX++) {
-			var keys = Object.keys(report.hosts[hostIDX].categories[catIDX].bundles);
-			var extIDsLength = keys.length;
-			for (var extIDsIDX = 0; extIDsIDX < extIDsLength; extIDsIDX++)
-				singleBundleCheck(hostIDX, catIDX, keys[extIDsIDX]);
-		}
-	}
-}
-
 function writeReport(report) {
 	var healthReport = '';
 	console.log('writing report ');
@@ -264,13 +246,12 @@ function writeReport(report) {
 	console.log(healthReport);
 }
 
-hostCheck(function(hostsHealth) {
-	CategoriesPush(hostsHealth, function(cateoryHealth) {
-		CheckCrossCategories(cateoryHealth, function(crossCategoryHealth) {
-			ExternalIDsCheck(crossCategoryHealth, function(resp) {
-				CheckProductBundes(resp, function(bundlesHealth) {
-					console.log(hostsHealth === bundlesHealth);
-					writeReport(bundlesHealth);
+hostCheck(function(report) {
+	CategoriesPush(report, function(report) {
+		CheckCrossCategories(report, function(report) {
+			ExternalIDsCheck(report, function(report) {
+				CheckProductBundes(report, function(report) {
+					writeReport(report);
 				});
 			})
 		})
